@@ -5,6 +5,8 @@ class BaseClass{
             'friction':1.0,
             'density':1.0
         }
+
+     // maths
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
